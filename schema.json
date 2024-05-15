@@ -1,0 +1,43 @@
+{
+    "Appointments": [{
+            "_id": 1,
+            "Doctor": {
+                "name": "Dr. Smith",
+                "specialist": "Cardiology"
+            },
+            "Date": "2023-03-21",
+            "status": "True"
+        },
+        {
+            "_id": 2,
+            "Doctor": {
+                "name": "Dr. Johnson",
+                "specialist": "Dermatology"
+            },
+            "Date": "2023-03-25",
+            "status": "False"
+        }
+    ],
+    "History": {
+        "Appointments": {
+            "Total appointments": 5
+        },
+        "medication_list": {
+            "Duration": 5,
+            "Medicines": ["paracetamol", "Dolo", "nothing65"]
+        }
+    },
+    "Emergency": [{
+            "_id": 1,
+            "Date": "2023-03-21",
+            "case": "Heart problem",
+            "Doctor_consulted": "Dr. Smith"
+        },
+        {
+            "_id": 2,
+            "Date": "2023-03-23",
+            "case": "Accident",
+            "Doctor_consulted": "Dr. Johnson"
+        }
+    ]
+}
